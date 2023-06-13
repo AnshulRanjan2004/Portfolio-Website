@@ -2,65 +2,62 @@ import styles from '../styles/ContactCode.module.css';
 
 const contactItems = [
   {
-    social: 'Email',
-    link: 'georgiou.kostas94@gmail.com',
-    href: 'mailto:georgiou.kostas94@gmail.com',
+    social: 'website',
+    link: 'anshulranjan.tech',
+    href: '',
   },
   {
-    social: 'LinkedIn',
-    link: 'linkedin.com/in/konstantinos-georgiou',
-    href: 'https://www.linkedin.com/in/konstantinos-georgiou/',
+    social: 'email',
+    link: 'itsanshulranjan@gmail.com',
+    href: 'mailto:itsanshulranjan@gmail.com',
   },
   {
-    social: 'GitHub',
-    link: 'github.com/drkostas',
-    href: 'https://github.com/drkostas',
+    social: 'github',
+    link: 'AnshulRanjan2004',
+    href: 'https://github.com/AnshulRanjan2004',
   },
   {
-    social: 'Google Scholar',
-    link: 'scholar.google.com/citations?user=b___QQ8AAAA',
-    href: 'https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra',
+    social: 'linkedin',
+    link: 'anshul-ranjan',
+    href: 'https://www.linkedin.com/in/anshul-ranjan/',
   },
   {
-    social: 'PyPi',
-    link: 'pypi.org/user/drkostas',
-    href: 'https://pypi.org/user/drkostas/',
+    social: 'twitter',
+    link: 'ItsAnshulRanjan',
+    href: 'https://twitter.com/ItsAnshulRanjan',
   },
   {
-    social: 'Website',
-    link: 'gkos.tech',
-    href: 'https://gkos.tech',
+    social: 'instagram',
+    link: 'anshul_ranjan_',
+    href: 'https://www.instagram.com/anshul_ranjan_/',
   },
 ];
 
 const ContactCode = () => {
   return (
     <div className={styles.code}>
-       <p className={styles.line}>
-       tag: <a>production</a>
-        </p>
       <p className={styles.line}>
-        <span>kostas</span>&#58;
-      </p>
-      <p className={styles.line}>
-        &nbsp;&nbsp;&nbsp;&#8212; <span>socials</span>&#58;
+        <span className={styles.className}>.socials</span> &#123;
       </p>
       {contactItems.slice(0, 8).map((item, index) => (
         <p className={styles.line} key={index}>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.social}:{' '}
+          &nbsp;&nbsp;&nbsp;{item.social}:{' '}
           <a href={item.href} target="_blank" rel="noopener">
             {item.link}
           </a>
+          ;
         </p>
       ))}
       {contactItems.slice(8, contactItems.length).map((item, index) => (
         <p className={styles.line} key={index}>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.social}:{' '}
+          &nbsp;&nbsp;{item.social}:{' '}
           <a href={item.href} target="_blank" rel="noopener">
             {item.link}
           </a>
+          ;
         </p>
       ))}
+      <p className={styles.line}>&#125;</p>
     </div>
   );
 };

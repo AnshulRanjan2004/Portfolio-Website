@@ -14,7 +14,7 @@ const Bottombar = () => {
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
-          href="https://github.com/drkostas/drkostas.github.io"
+          href="https://github.com/AnshulRanjan2004/Portfolio-Website"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -30,32 +30,26 @@ const Bottombar = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <a href="https://www.linkedin.com/in/konstantinos-georgiou/" target="_blank" rel="noopener">
+        <a href="https://www.linkedin.com/in/anshul-ranjan/" target="_blank" rel="noopener">
           <div className={styles.section}>
             <LinkedinIcon className={styles.icon} />
             <p>Linkedin</p>
           </div>
         </a>
-        <a href="https://github.com/drkostas" target="_blank" rel="noopener">
+        <a href="https://github.com/AnshulRanjan2004" target="_blank" rel="noopener">
           <div className={styles.section}>
             <GithubIcon className={styles.icon} />
             <p>Github</p>
           </div>
         </a>
-        <a href="https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra" target="_blank" rel="noopener">
-          <div className={styles.section}>
-            <ScholarIcon className={styles.icon} />
-            <p>Scholar</p>
-          </div>
-        </a>
-        {/* <div className={styles.section}>
+        <div className={styles.section}>
           <NextjsIcon className={styles.icon} />
           <p>Powered by Next.js</p>
-        </div> */}
-        {/* <div className={styles.section}>
+        </div>
+        <div className={styles.section}>
           <CheckIcon className={styles.icon} />
           <p>Prettier</p>
-        </div> */}
+        </div>
         <div className={styles.section}>
           <BellIcon />
         </div>

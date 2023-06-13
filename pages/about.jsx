@@ -14,11 +14,12 @@ const AboutPage = () => {
       </ul>
       <br/>
       <center>
-        <h3>Resume (<a href={myResume} download="Resume-KonstantinosGeorgiou.pdf">Download</a>)</h3>
+        <h3>Resume (<a href={myResume} download="Resume-AnshulRanjan.pdf">Download</a>)</h3>
         <br />
         <Document file={myResume}>
           <Page pageIndex={0} />
           <Page pageIndex={1} />
+          <Page pageIndex={2} />
         </Document>
       </center>
     </>

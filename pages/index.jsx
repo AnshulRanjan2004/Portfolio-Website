@@ -8,47 +8,47 @@ export default function HomePage() {
     <>
       <div className={styles.container}>
         <div className={styles.background}>
-          <h1>AI</h1>
-          <h1>Research</h1>
+          <h1>Tech</h1>
+          <h1>Coding</h1>
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Kostas Georgiou</h1>
-            <h6 className={styles.bio}>Computer Vision Researcher</h6>
+            <h1 className={styles.name}>Anshul Ranjan</h1>
+            <h6 className={styles.bio}>Computer Science Enthusiast</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
                   <h4>Skill Set</h4>
                   <div className={styles.tags}>
                     <span key='Research' className='Research'>
-                      Research
+                      Python
                     </span>
                     <span key='PyTorch' className='PyTorch'>
                       PyTorch
                     </span>
                     <span key='Tensorflow' className='Tensorflow'>
-                      Tensorflow
+                      Web-Development
                     </span>
                     <span key='Apache-Spark' className='Apache-Spark'>
-                      Apache-Spark
+                      Arduino
                     </span>
                     <span key='SQL' className='SQL'>
-                      SQL
+                      Kubernetes
                     </span>
                     <span key='Computer-Vision' className='Computer-Vision'>
-                      Computer-Vision
+                      NLP
                     </span>
                     <span key='Data-Pipelines' className='Data-Pipelines'>
-                      Data-Pipelines
+                     Cloud-Computing
                     </span>
                     <span key='MLOps' className='MLOps'>
-                      MLOps
+                      ML-Ops
                     </span>
                     <span key='Software-Design' className='Software-Design'>
-                      Software-Design
+                      Flask
                     </span>
                     <span key='Bots' className='Bots'>
-                      Bots
+                      MongoDB
                     </span>
                     <span key='APIs' className='APIs'>
                       APIs
@@ -72,10 +72,10 @@ export default function HomePage() {
             <div className={styles.picture_boader}>
               <Image
                 className={styles.picture}
-                src="/me.jpeg"
+                src="/me.jpg"
                 width={300}
                 height={290}
-                alt="Kostas' Picture"
+                alt="Anshul' Picture"
               />
             </div>
 

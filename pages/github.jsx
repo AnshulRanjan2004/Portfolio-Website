@@ -4,7 +4,6 @@ import RepoCard from '../components/RepoCard';
 import styles from '../styles/GithubPage.module.css';
 
 const GithubPage = ({ repos, user }) => {
-  // console.log(repos);
   const theme = {
     level0: '#161B22',
     level1: '#0e4429',

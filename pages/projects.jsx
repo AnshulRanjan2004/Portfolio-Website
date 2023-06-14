@@ -8,7 +8,7 @@ import styles from '../styles/ProjectsPage.module.css';
 const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects }) => {
   return (
     <>
-      <h3>Open Source Projects</h3>
+      <h3>Stuff I've Built So Far</h3>
       <br/>
       <center><h4>Machine Learning</h4></center>
       <hr/>

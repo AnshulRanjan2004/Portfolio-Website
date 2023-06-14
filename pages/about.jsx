@@ -5,7 +5,7 @@ const myResume = './Resume.pdf';
 const AboutPage = () => {
   return (
     <>
-      <h3>About Me</h3><br/>
+      <h3>A Little Bit About Me</h3><br/>
       <ul>
         <li><span role="img" aria-label="book">📖</span> Pursuing Bachelor of Technology Computer Science Engineering @ <a href='https://cs.pes.edu/'>PES University </a>.</li>
         <li><span role="img" aria-label="graduate-hat">🎓</span> Conducting research on <b>AI</b> and <b>Natural Language Processing</b> @ <a href='https://research.pes.edu/cloud-computing-big-data/'>CCBD PESU</a>.</li>

@@ -6,19 +6,19 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Kostas Georgiou's Profolio."
+        content="Anshul Ranjan's Profolio."
       />
       <meta
         name="keywords"
-        content="kostas georgiou, kostas, georgiou, data scientist portfolio, machine learning engineer, kostas georgiou portfolio, vscode-portfolio"
+        content="Anshul Ranjan, Anshul, Ranjan, machine learning engineer, anshul ranjan portfolio, vscode-portfolio"
       />
-      <meta property="og:title" content="Kostas Georgiou's Portfolio" />
+      <meta property="og:title" content="Anshul Ranjan's Portfolio" />
       <meta
         property="og:description"
-        content="Kostas Georgiou's Profolio."
+        content="Anshul Ranjan's Profolio."
       />
-      <meta property="og:image" content="https://imgur.com/YTNNknY.png" />
-      <meta property="og:url" content="https://gkos.tech" />
+      <meta property="og:image" content="" />
+      <meta property="og:url" content="" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
@@ -27,5 +27,5 @@ const CustomHead = ({ title }) => {
 export default CustomHead;
 
 CustomHead.defaultProps = {
-  title: 'Kostas Georgiou',
+  title: 'Anshul Ranjan',
 };

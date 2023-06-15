@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  
+.holding {  display: flex;
+  justify-content: space-evenly;
+}
+  .experiences {
+    margin-top: 1.5rem;
+  }
+  .experiences h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .outlined {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    color: #eee;
+    background: red;
+    border: 2px solid var(--accent-color);
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .code a {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  
+  .code a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .code {
+      font-size: 0.85rem;
+      line-height: 1.5rem;
+    }
+  }

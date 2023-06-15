@@ -1,8 +1,13 @@
 import { pdfjs, Document, Page, PDFDownloadLink } from 'react-pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
 const myResume = './Resume.pdf';
+import AboutLanguages from '../components/AboutLanguages';
+import AboutFrameworks from '../components/AboutFrameworks';
+import styles from '../styles/AboutPage.module.css';
+import { getAbout } from './api/about';
+import { normalize } from '../utils/common.ts';
 
-const AboutPage = () => {
+const AboutPage = ({ data }) => {
   return (
     <>
       <h3>A Little Bit About Me</h3><br/>
@@ -13,6 +18,10 @@ const AboutPage = () => {
         <li><span role="img" aria-label="laptop">💻</span> Currently working on Neural Networks, Augmented Reality, and Reinforcement Learning. </li>
       </ul>
       <br/>
+      <div className={styles.container}>
+        <AboutLanguages data={data.Languages} />
+        <AboutFrameworks data={data.Softwares} />
+      </div>
       <center>
         <h3>Resume (<a href={myResume} download="Resume-AnshulRanjan.pdf">Download</a>)</h3>
         <br />
@@ -27,8 +36,10 @@ const AboutPage = () => {
 };
 
 export async function getStaticProps() {
+
+  const data = getAbout();
   return {
-    props: { title: 'About' },
+    props: { title: 'About', data: normalize(data, 'title') },
   };
 }
 

@@ -548,6 +548,12 @@ li:nth-child(4):before {
 li:nth-child(5):before {
   content: "* " 
 }
+li:nth-child(6):before {
+  content: "* " 
+}
+li:nth-child(7):before {
+  content: "* " 
+}
 
 /* Links colors */
 a {

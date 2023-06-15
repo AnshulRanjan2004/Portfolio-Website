@@ -32,8 +32,8 @@ export default async function handler(req, res) {
             {
                 "content": `**Name**: ${name}\n**Email**: ${email}\n**__Subject__**:\n${subject}\n**__message__**:\n${message}`,
                 "embeds": null,
-                "username": "IEEE RAS PESU SITE",
-                "avatar_url": "https://www.ieee-ras.org/images/files/template/ieee-ras-logo.png",
+                "username": "Portfolio Contact Form",
+                "avatar_url": "https://imgur.com/kL8cwUb.png",
                 "attachments": []
             }
         )

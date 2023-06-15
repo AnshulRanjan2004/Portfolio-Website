@@ -243,10 +243,10 @@
 .Bots:hover {
   background: rgba(0, 51, 255, 0.25);
 }
-.CircleCI {
+.Automation {
   border: 0.1rem solid rgb(164, 153, 153);
 }
-.CircleCI:hover {
+.Automation:hover {
   background: rgba(164, 153, 153, 0.25);
 }
 .wrapper {
@@ -255,10 +255,10 @@
 .wrapper:hover {
   background: rgba(0, 0, 0, 0.25);
 }
-.Dropbox {
+.Typescript {
   border: 0.1rem solid rgb(100, 178, 255);
 }
-.Dropbox:hover {
+.Typescript:hover {
   background: rgba(100, 178, 255, 0.25);
 }
 .yaml {
@@ -285,38 +285,38 @@
 .termcolor:hover {
   background: rgba(255, 0, 200, 0.25);
 }
-.Youtube {
+.Currently-In-Progress {
   border: 0.1rem solid rgb(255, 0, 0);
 }
-.Youtube:hover {
+.Currently-In-Progress:hover {
   background: rgba(255, 0, 0, 0.25);
 }
-.Gmail {
-  border: 0.1rem solid rgb(189, 100, 100);
+.JavaScript {
+  border: 0.1rem solid rgb(218, 249, 18);
 }
-.Gmail:hover {
-  background: rgba(189, 100, 100, 0.25);
+.JavaScript:hover {
+  background: rgba(173, 189, 100, 0.25);
 }
-.AWS {
+.Discord-JS {
   border: 0.1rem solid rgb(159, 161, 42);
 }
-.AWS:hover {
+.Discord-JS:hover {
   background: rgba(159, 161, 42, 0.25);
 }
-.RDS {
+.NodeJS-Bot {
   border: 0.1rem solid rgb(0, 0, 0);
 }
-.RDS:hover {
+.NodeJS-Bot:hover {
   background: rgba(0, 0, 0, 0.25);
 }
-.Heroku {
+.Sulla {
   border: 0.1rem solid rgb(152, 14, 122);
 }
-.Heroku:hover {
+.Sulla:hover {
   background: rgba(152, 14, 122, 0.25);
 }
 .APIs {
-  border: 0.1rem solid rgb(152, 14, 122);
+  border: 0.1rem solid rgb(220, 36, 73);
 }
 .APIs:hover {
   background: rgba(152, 14, 122, 0.25);
@@ -461,6 +461,54 @@
 }
 .SQL:hover {
   background: rgba(255, 118, 214, 0.25);
+}
+.discord{
+  border: 0.1rem solid rgb(24, 27, 188);
+}
+.discord:hover {
+  background: rgba(88, 72, 156, 0.25);
+}
+.Docker {
+  border: 0.1rem solid rgb(137, 234, 52);
+}
+.Docker:hover {
+  background: rgba(178, 222, 159, 0.25);
+}
+.NextJS {
+  border: 0.1rem solid rgb(188, 12, 219);
+}
+.NextJS:hover {
+  background: rgba(73, 150, 245, 0.25);
+}
+.SanityIO{
+  border: 0.1rem solid rgb(236, 16, 16);
+}
+.SanityIO:hover {
+  background: rgba(189, 73, 73, 0.25);
+}
+.TailwindCSS{
+  border: 0.1rem solid rgb(16, 185, 219);
+}
+.TailwindCSS:hover {
+  background: rgba(73, 150, 245, 0.25);
+}
+.Django {
+  border: 0.1rem solid rgb(235, 168, 13);
+}
+.Django:hover {
+  background: rgba(219, 236, 105, 0.25);
+}
+.GoogleAPIs{
+  border: 0.1rem solid rgb(225, 7, 218);
+}
+.GoogleAPIs:hover {
+  background: rgba(160, 87, 233, 0.653);
+}
+.CSS{
+  border: 0.1rem solid rgb(60, 245, 19);
+}
+.CSS:hover {
+  background: rgba(116, 239, 143, 0.25);
 }
 
 /* PDF */

@@ -1,19 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Youtube Comment Bot",
-    "image": "https://imgur.com/bFXeKlG.png",
-    "description": "A bot that post the first comment on every new video of specified channels.",
-    "tags": ["Youtube", "Gmail", "Dropbox", "MySQL", "AWS", "RDS", "CircleCI", "Heroku"],
-    "source_code": "https://github.com/drkostas/Youtube-FirstCommentBot",
-    "demo": "https://www.youtube.com/channel/UC_nnPV1zXEqIP42HOiVdg1A"
+    "name": "Whatsapp Chat Bot",
+    "image": "https://imgur.com/kv3QiML.png",
+    "description": "A WhatsApp bot that fills online forms, simplifying the process by allowing users to provide information and automatically submit it through conversational interaction.",
+    "tags": ["Currently-In-Progress", "JavaScript", "APIs", "MySQL", "Sulla", "NodeJS-Bot", "Automation"],
+    "source_code": ""
   },
   {
     "id": 2,
-    "name": "Job Application Bot",
-    "image": "https://imgur.com/BX6C6ke.png",
-    "description": "A bot that automatically sends emails to new ads posted in any desired xe.gr search url.",
-    "tags": ["Gmail", "Dropbox", "MySQL", "AWS", "RDS", "CircleCI", "Heroku", "Crawler", "Scraper"],
-    "source_code": "https://github.com/drkostas/JobApplicationBot"
+    "name": "Discord Music Bot",
+    "image": "https://imgur.com/klJQL3R.png",
+    "description": "A bot designed to play music within Discord voice channels. It allows users to play, pause, skip, and control the playback of music tracks from various sources.",
+    "tags": ["discord", "Typescript ", "Docker", "Discord-JS", "APIs"],
+    "source_code": "https://github.com/AnshulRanjan2004/Discord-Music-Bot"
   }
 ]

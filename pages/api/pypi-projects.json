@@ -1,21 +1,20 @@
 [
   {
     "id": 1,
-    "name": "High SQL",
-    "image": "https://imgur.com/Sx43htM.png",
-    "description": "A high-level sql command utility. Currently only MySQL is supported.",
-    "tags": ["PyPi", "MySQL", "CircleCI", "wrapper"],
-    "source_code": "https://github.com/drkostas/high-sql",
-    "pypi": "https://pypi.org/project/high-sql/"
+    "name": "IEEE PESU Official Website",
+    "image": "https://imgur.com/3ksjoIb.png",
+    "description": "Developed and designed the official web page of IEEE RAS PESU making the website dynamic and responsive.",
+    "tags": ["NextJS", "Typescript", "SanityIO", "TailwindCSS","Django"],
+    "demo": "https://ieee-ras-site.vercel.app/"
   },
   {
     "id": 2,
-    "name": "Cloud File Manager",
-    "image": "https://imgur.com/TWD42kg.png",
-    "description": "A high-level filemanager utility for cloud services. Currently only Dropbox is supported.",
-    "tags": ["PyPi", "Dropbox", "CircleCI", "wrapper"],
-    "source_code": "https://github.com/drkostas/cloud-filemanager",
-    "pypi": "https://pypi.org/project/cloud-filemanager/"
+    "name": "Portfolio Website",
+    "image": "https://i.imgur.com/FgYju8s.png",
+    "description": "A VSCode themed developer portfolio built using Next.js and deployed on Vercel..",
+    "tags": ["NextJS","JavaScript", "GoogleAPIs", "CSS"],
+    "source_code": "https://github.com/AnshulRanjan2004/Portfolio-Website",
+    "demo": "/"
   },
   {
     "id": 3,

@@ -14,7 +14,7 @@ const ContactPage = () => {
       method: 'POST',
       body: JSON.stringify({ name, email, subject, message }),
     });
-    if (res.ok) {
+    if (res.status === 200) {
       alert('Your response has been received!');
       setName('');
       setEmail('');

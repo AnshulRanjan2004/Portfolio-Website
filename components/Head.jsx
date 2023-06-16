@@ -6,7 +6,7 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Anshul Ranjan's Profolio."
+        content="Anshul Ranjan's Portfolio."
       />
       <meta
         name="keywords"
@@ -18,7 +18,7 @@ const CustomHead = ({ title }) => {
         content="Anshul Ranjan's Profolio."
       />
       <meta property="og:image" content="https://i.imgur.com/FgYju8s.png" />
-      <meta property="og:url" content="anshulranjan.tech" />
+      <meta property="og:url" content="https://anshulranjan.vercel.app/" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );

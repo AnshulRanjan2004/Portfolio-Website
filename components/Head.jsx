@@ -4,6 +4,7 @@ const CustomHead = ({ title }) => {
   return (
     <Head>
       <title>{title}</title>
+      <meta name="google-site-verification" content="pTJsl0MDIMCt88iuhlc7xVgD_UwZwUho4jbVN5O2bkI" />
       <meta
         name="description"
         content="Anshul Ranjan's Portfolio."

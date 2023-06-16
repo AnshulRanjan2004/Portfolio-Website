@@ -9,6 +9,18 @@
 }
 
 /* Tags */
+.Apache-Spark{
+  border: 0.1rem solid rgb(92, 237, 9);
+}
+.Apache-Spark:hover {
+  background: rgba(149, 234, 120, 0.25);
+}
+.Data-Pipelines{
+  border: 0.1rem solid rgb(8, 236, 240);
+}
+.Data-Pipelines:hover {
+  background: rgba(123, 179, 243, 0.25);
+}
 .PyTorch {
   border: 0.1rem solid rgb(238, 89, 3);
 }
@@ -588,7 +600,6 @@
 .Compiler-Design:hover {
   background: rgba(210, 140, 224, 0.25);
 }
-
 /* PDF */
 .react-pdf__Page__canvas {
   margin: 0 auto;

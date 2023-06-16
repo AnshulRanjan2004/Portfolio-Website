@@ -10,7 +10,7 @@ const ContactPage = () => {
 
   const submitForm = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://anshulranjan.vercel.app/pages/api/contact.js", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
       method: 'POST',
       body: JSON.stringify({ name, email, subject, message }),
     });

@@ -1,35 +1,49 @@
 [
   {
     "id": 1,
-    "name": "Spotify Button Presser",
-    "image": "https://imgur.com/Ek1p3sE.png",
-    "description": "An app that clicks a physical button whenever Spotify starts playing on the target device.",
-    "tags": ["RaspberryPI", "Spotify", "SwitchBot", "button-presser", "automation", "smart-home"],
-    "source_code": "https://github.com/drkostas/SpotiClick"
+    "name": "Esacape The Maze",
+    "image": "https://imgur.com/PiRTFcQ.png",
+    "description": "A Python-based multiplayer game that uses Pygame and socket programming for real-time competition",
+    "tags": ["Python", "PyGame", "Socket-Programming", "Multiplayer"],
+    "source_code": "https://github.com/AnshulRanjan2004/Escape-The-Maze"
   },
   {
     "id": 2,
-    "name": "Cross The Floor",
-    "image": "https://imgur.com/jjPQmxf.png",
-    "description": "Uses Sankey Diagrams to visualize politicians that have `crossed the floor` from election to election.",
-    "tags": ["Sankey-Diagram", "Parliament", "Scraper", "Visualization"],
-    "source_code": "https://github.com/drkostas/Cross-The-Floor"
+    "name": "Tetris",
+    "image": "https://imgur.com/laBXMQT.png",
+    "description": "Discover the joy of classic block-stacking fun with this Tetris game implementation on C!",
+    "tags": ["C","ncurses","SFML"],
+    "source_code": "https://github.com/AnshulRanjan2004/Tetris-Game"
   },
   {
     "id": 3,
-    "name": "2D Shooter Game",
-    "image": "https://imgur.com/GP9wwc0.png",
-    "description": "Simple 2d shooter game written with JavaScript and the p5.js library.",
-    "tags": ["P5.js", "game", "shooter-game"],
-    "source_code": "https://github.com/drkostas/shooter-game-with-p5js",
-    "demo": "http://shooter-game.gkos.tech"
+    "name": "Golang Mini Compiler",
+    "image": "https://imgur.com/taj9UsF.png",
+    "description": "A compiler front-end for Golang implemented using Python Lex and YACC that handles the switch , if else and loop constructs",
+    "tags": ["Python", "Lex", "YACC", "GoLang","Compiler-Design","Paser"],
+    "source_code": "https://github.com/AnshulRanjan2004/Golang-Mini-Compiler"
   },
   {
     "id": 4,
-    "name": "Quantum Mechanics Quiz App",
-    "image": "https://imgur.com/GZAcsg4.png",
-    "description": "Android app with 10 questions about Quantum Mechanics.",
-    "tags": ["Android-App", "App", "Java", "Quantum-Mechanics", "Quiz"],
-    "source_code": "https://github.com/drkostas/Quantum-Mechanics-Quiz-App"
+    "name": "Web Server Fingerprinting",
+    "image": "https://imgur.com/tiwSRhy.png",
+    "description": "Performs comprehensive fingerprinting and analysis of web servers based on client-server architecture. Using the PyQt is a GUI widgets toolkit.",
+    "tags": ["Python", "PyQt", "Client-Server", "Fingerprinting-Websites"],
+    "source_code": "https://github.com/AnshulRanjan2004/Web-Server-Fingerprinting"
+},
+{
+  "id": 5,
+  "name": "NLP",
+  "image": "https://imgur.com/wBW4DZq.png",
+  "description": "Projects related to Deep Learning and NLP",
+  "tags": ["NLP","Neural-Network","Deep-Learning","PyTorch","NLTK"],
+  "source_code": "https://github.com/AnshulRanjan2004/NLP"
+},
+{
+  "id": 6,
+  "name": "Image Segmentation",
+  "image": "https://imgur.com/LmHHq0j.png",
+  "description": "Projects related to Deep Learning and NLP",
+  "tags": ["Currently-In-Progress","PyTorch", "Deep-Learning", "Image-Segmentation","MATLAB","OpenCV"]
 }
 ]

@@ -21,22 +21,10 @@
 .OpenCV:hover {
   background: rgba(50, 85, 213, 0.25);
 }
-.SegFormer {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.SegFormer:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.Semantic-Segmentation {
-  border: 0.1rem solid rgb(234, 69, 184);
-}
-.Semantic-Segmentation:hover {
-  background: rgba(234, 69, 184, 0.25);
-}
-.Minecraft {
+.Blockchain {
   border: 0.1rem solid rgb(243, 164, 7);
 }
-.Minecraft:hover {
+.Blockchain:hover {
   background: rgba(243, 164, 7, 0.25);
 }
 .Reinforcement-Learning {
@@ -45,22 +33,10 @@
 .Reinforcement-Learning:hover {
   background: rgba(124, 182, 237, 0.25);
 }
-.Medical-Imaging {
-  border: 0.1rem solid rgb(72, 86, 197);
-}
-.Medical-Imaging:hover {
-  background: rgba(72, 86, 197 0.25);
-}
-.SpaCy {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.SpaCy:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.HuggingFace {
+.NVIDIA-Jetson {
   border: 0.1rem solid rgb(238, 250, 2);
 }
-.HuggingFace:hover {
+.NVIDIA-Jetson:hover {
   background: rgba(238, 250, 2, 0.25);
 }
 .Transformers {
@@ -69,10 +45,10 @@
 .Transformers:hover {
   background: rgba(13, 250, 49 0.25);
 }
-.BERT {
-  border: 0.1rem solid rgb(227, 250, 135);
+.NLP {
+  border: 0.1rem solid rgb(39, 54, 227);
 }
-.BERT:hover {
+.NLP:hover {
   background: rgba(227, 250, 135, 0.25);
 }
 .Pandas {
@@ -93,24 +69,6 @@
 .Scipy:hover {
   background: rgba(5, 194, 247, 0.25);
 }
-.Bayesian-Optimization {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.Bayesian-Optimization:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.XGBoost {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.XGBoost:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.Logistic-Regression {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.Logistic-Regression:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
 .Neural-Network {
   border: 0.1rem solid rgb(170, 170, 248);
 }
@@ -123,29 +81,11 @@
 .K-Means:hover {
   background: rgba(0, 0, 0, 0.25);
 }
-.Apache-Spark {
-  border: 0.1rem solid rgb(170, 170, 248);
-}
-.Apache-Spark:hover {
-  background: rgba(170, 170, 248, 0.25);
-}
 .Social-Networks {
   border: 0.1rem solid rgb(8, 0, 255);
 }
 .Social-Networks:hover {
   background: rgba(8, 0, 255, 0.25);
-}
-.Community-Detection {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.Community-Detection:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.GraphFrames {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.GraphFrames:hover {
-  background: rgba(0, 0, 0, 0.25);
 }
 .MySQL {
   border: 0.1rem solid rgb(144, 151, 252);
@@ -159,28 +99,10 @@
 .Tensorflow:hover {
   background: rgba(239, 113, 113, 0.25);
 }
-.LSTMs {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.LSTMs:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.Multivariate-Time-Series {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.Multivariate-Time-Series:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
 .Instagram {
   border: 0.1rem solid rgb(255, 45, 7);
 }
 .Instagram:hover {
-  background: rgba(255, 45, 7, 0.25);
-}
-.Data-Pipelines {
-  border: 0.1rem solid rgb(255, 45, 7);
-}
-.Data-Pipelines:hover {
   background: rgba(255, 45, 7, 0.25);
 }
 .Scraper {
@@ -201,35 +123,11 @@
 .MLOps:hover {
   background: rgba(194, 203, 255, 0.25);
 }
-.Markov-Decision-Process {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.Markov-Decision-Process:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.Value-Iteration {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.Value-Iteration:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.RL {
-  border: 0.1rem solid rgb(43, 233, 173);
-}
-.RL:hover {
-  background: rgba(43, 233, 173, 0.25);
-}
 .Software-Design {
   border: 0.1rem solid rgb(43, 233, 173);
 }
 .Software-Design:hover {
   background: rgba(43, 233, 173, 0.25);
-}
-.Vanilla-Implementation {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.Vanilla-Implementation:hover {
-  background: rgba(0, 0, 0, 0.25);
 }
 .PyPi {
   border: 0.1rem solid rgb(0, 51, 255);
@@ -260,30 +158,6 @@
 }
 .Typescript:hover {
   background: rgba(100, 178, 255, 0.25);
-}
-.yaml {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.yaml:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.configuration {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.configuration:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.logger {
-  border: 0.1rem solid rgb(0, 0, 0);
-}
-.logger:hover {
-  background: rgba(0, 0, 0, 0.25);
-}
-.termcolor {
-  border: 0.1rem solid rgb(255, 0, 200);
-}
-.termcolor:hover {
-  background: rgba(255, 0, 200, 0.25);
 }
 .Currently-In-Progress {
   border: 0.1rem solid rgb(255, 0, 0);
@@ -509,6 +383,210 @@
 }
 .CSS:hover {
   background: rgba(116, 239, 143, 0.25);
+}
+.VueJS{
+  border: 0.1rem solid rgb(139, 9, 226);
+}
+.VueJS:hover {
+  background: rgba(207, 135, 225, 0.25);
+}
+.Web3{
+  border: 0.1rem solid rgb(240, 9, 156);
+}
+.Web3:hover {
+  background: rgba(224, 139, 222, 0.25);
+}
+.IPFS{
+  border: 0.1rem solid rgb(15, 15, 236);
+}
+.IPFS:hover {
+  background: rgba(135, 160, 229, 0.25);
+}
+.Nuxt3{
+  border: 0.1rem solid rgb(235, 238, 7);
+}
+.Nuxt3:hover {
+  background: rgba(204, 223, 110, 0.25);
+}
+.Flask{
+  border: 0.1rem solid rgb(26, 241, 7);
+}
+.Flask:hover {
+  background: rgba(131, 235, 133, 0.25);
+}
+.ReactJS{
+  border: 0.1rem solid rgb(243, 4, 191);
+}
+.ReactJS:hover {
+  background: rgba(140, 224, 224, 0.25);
+}
+.RFID{
+  border: 0.1rem solid rgb(40, 210, 236);
+}
+.RFID:hover {
+  background: rgba(230, 149, 90, 0.25);
+}
+.Arduino{
+  border: 0.1rem solid rgb(20, 245, 16);
+}
+.Arduino:hover {
+  background: rgba(104, 226, 117, 0.25);
+}
+.TFT{
+  border: 0.1rem solid rgba(227, 75, 136, 0.559);
+}
+.TFT:hover {
+  background: rgba(221, 117, 117, 0.25);
+}
+.Bootloader{
+  border: 0.1rem solid rgb(187, 243, 34);
+}
+.Bootloader:hover {
+  background: rgba(235, 235, 178, 0.25);
+}
+.C{
+  border: 0.1rem solid rgb(247, 119, 8);
+}
+.C:hover {
+  background: rgba(224, 165, 126, 0.25);
+}
+.Assembly{
+  border: 0.1rem solid rgb(15, 241, 185);
+}
+.Assembly:hover {
+  background: rgba(137, 235, 210, 0.25);
+}
+.OS{
+  border: 0.1rem solid rgb(234, 62, 194);
+}
+.OS:hover {
+  background: rgba(224, 126, 211, 0.25);
+}
+.Grub{
+  border: 0.1rem solid rgb(23, 47, 231);
+}
+.Grub:hover {
+  background: rgba(130, 126, 232, 0.25);
+}
+.GoogleAR{
+  border: 0.1rem solid rgb(18, 29, 225);
+}
+.GoogleAR:hover {
+  background: rgba(156, 120, 233, 0.25);
+}
+.NodeJS{
+  border: 0.1rem solid rgba(217, 243, 15, 0.917);
+}
+.NodeJS:hover {
+  background: rgba(195, 236, 99, 0.25);
+}
+.MongoDB{
+  border: 0.1rem solid rgb(14, 239, 239);
+}
+.MongoDB:hover {
+  background: rgba(140, 234, 239, 0.25);
+}
+.ExpressJS{
+  border: 0.1rem solid rgb(239, 11, 11);
+}
+.ExpressJS:hover {
+  background: rgba(220, 127, 127, 0.25);
+}
+.MATLAB{
+  border: 0.1rem solid rgb(95, 227, 6);
+}
+.MATLAB:hover {
+  background: rgba(143, 220, 134, 0.25);
+}
+.Image-Segmentation{
+  border: 0.1rem solid rgba(228, 17, 243, 0.899);
+}
+.Image-Segmentation:hover {
+  background: rgba(227, 140, 223, 0.25);
+}
+.Socket-Programming{
+  border: 0.1rem solid rgb(240, 221, 20);
+}
+.Socket-Programming:hover {
+  background: rgba(229, 232, 122, 0.25);
+}
+.PyGame{
+  border: 0.1rem solid rgb(12, 249, 213);
+}
+.PyGame:hover {
+  background: rgba(128, 216, 227, 0.25);
+}
+.Multiplayer{
+  border: 0.1rem solid rgb(250, 10, 238);
+}
+.Multiplayer:hover {
+  background: rgba(167, 87, 156, 0.25);
+}
+.ncurses{
+  border: 0.1rem solid rgb(37, 239, 11);
+}
+.ncurses:hover {
+  background: rgba(178, 236, 145, 0.25);
+}
+.SFML{
+  border: 0.1rem solid rgb(227, 243, 14);
+}
+.SFML:hover {
+  background: rgba(216, 231, 119, 0.25);
+}
+.NLTK{
+  border: 0.1rem solid rgb(67, 248, 11);
+}
+.NLTK:hover {
+  background: rgba(133, 212, 117, 0.25);
+}
+.PyQt{
+  border: 0.1rem solid rgb(240, 174, 7);
+}
+.PyQt:hover {
+  background: rgba(235, 212, 128, 0.25);
+}
+.Client-Server{
+  border: 0.1rem solid rgb(11, 237, 14);
+}
+.Client-Server:hover {
+  background: rgba(163, 219, 133, 0.25);
+}
+.Fingerprinting-Websites{
+  border: 0.1rem solid rgb(8, 243, 224);
+}
+.Fingerprinting-Websites:hover {
+  background: rgba(122, 203, 189, 0.25);
+}
+.Lex{
+  border: 0.1rem solid rgb(240, 100, 6);
+}
+.Lex:hover {
+  background: rgba(230, 177, 144, 0.25);
+}
+.YACC{
+  border: 0.1rem solid rgb(176, 242, 10);
+}
+.YACC:hover {
+  background: rgba(167, 242, 132, 0.25);
+}
+.GoLang{
+  border: 0.1rem solid rgb(8, 243, 224);
+}
+.GoLang:hover {
+  background: rgba(122, 203, 189, 0.25);
+}
+.Paser{
+  border: 0.1rem solid rgba(19, 237, 8, 0.25);
+}
+.Paser:hover {
+  background: rgba(164, 229, 128, 0.25);
+}
+.Compiler-Design{
+  border: 0.1rem solid rgb(209, 8, 240);
+}
+.Compiler-Design:hover {
+  background: rgba(210, 140, 224, 0.25);
 }
 
 /* PDF */

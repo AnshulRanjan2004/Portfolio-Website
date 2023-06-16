@@ -18,38 +18,10 @@
   },
   {
     "id": 3,
-    "name": "YAML Wrapper",
-    "image": "https://imgur.com/98sBFjF.png",
-    "description": "A YAML configuration wrapper.",
-    "tags": ["PyPi", "CircleCI", "yaml", "configuration", "wrapper"],
-    "source_code": "https://github.com/drkostas/yaml-config-wrapper",
-    "pypi": "https://pypi.org/project/yaml-config-wrapper/"
-  },
-  {
-    "id": 4,
-    "name": "Color Logger",
-    "image": "https://imgur.com/4LumI32.png",
-    "description": "A logger with text formatting using termcolor.",
-    "tags": ["PyPi", "CircleCI", "logger", "termcolor"],
-    "source_code": "https://github.com/drkostas/termcolor-logger",
-    "pypi": "https://pypi.org/project/termcolor-logger/"
-  },
-  {
-    "id": 5,
-    "name": "Email Sender",
-    "image": "https://imgur.com/kWJweYF.png",
-    "description": "A utility for sending emails with attachments. Currently only Gmail is supported.",
-    "tags": ["PyPi", "Gmail", "wrapper"],
-    "source_code": "https://github.com/drkostas/pyemail-sender",
-    "pypi": "https://pypi.org/project/pyemail-sender/"
-  },
-  {
-    "id": 6,
-    "name": "Benchmark Tools",
-    "image": "https://imgur.com/k64Z12r.png",
-    "description": "A collection of benchmarking tools.",
-    "tags": ["PyPi", "CircleCI", "benchmarking"],
-    "source_code": "https://github.com/drkostas/bench-utils",
-    "pypi": "https://pypi.org/project/bench-utils/"
+    "name": "AR Shopping Website",
+    "image": "https://imgur.com/uco9Zzj.png",
+    "description": "A next-gen shopping website using MERN stack, used Google AR models to show different clothing items on the 3D user.",
+    "tags": ["GoogleAR","ReactJS", "JavaScript", "CSS","NodeJS","ExpressJS","MongoDB"],
+    "source_code": "https://github.com/AnshulRanjan2004/A-and-A-shopping"
   }
 ]

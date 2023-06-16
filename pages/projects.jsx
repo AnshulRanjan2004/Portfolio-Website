@@ -10,7 +10,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
     <>
       <h3>Stuff I've Built So Far</h3>
       <br/>
-      <center><h4>Open Source Projects</h4></center>
+      <center><h4>Major Projects</h4></center>
       <hr/>
       <div className={styles.container}>
         {ml_projects.map((project) => (

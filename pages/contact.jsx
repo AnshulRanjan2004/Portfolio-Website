@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import ContactCode from '../components/ContactCode';
 import styles from '../styles/ContactPage.module.css';
@@ -10,7 +11,7 @@ const ContactPage = () => {
 
   const submitForm = async (e) => {
     e.preventDefault();
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
+    const res = await fetch("api/contact", {
       method: 'POST',
       body: JSON.stringify({ name, email, subject, message }),
     });

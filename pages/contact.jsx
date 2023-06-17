@@ -34,7 +34,7 @@ const ContactPage = () => {
       </div>
       <div>
         <h3 className={styles.heading}>Or Fill Out This Form</h3>
-        <form className={styles.form} onSubmit={submitForm}>
+        <form className={styles.form}>
           <div className={styles.flex}>
             <div>
               <label htmlFor="name">Name</label>
